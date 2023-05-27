@@ -1,0 +1,13 @@
+/* Para telas Medium (1024x800) */
+@media (min-width: 1024px) and (max-height: 800px) {
+  .dropdown-adjust {
+      left: -2rem !important; /* Ajuste para Medium Screen */
+  }
+}
+
+/* Para telas Large Screen (688x1031) */
+@media (max-width: 688px) and (min-height: 1031px) {
+  .dropdown-adjust {
+      left: -3rem !important; /* Ajuste para Large Screen */
+  }
+}

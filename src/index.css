@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Para telas com largura de 1024px ou mais */
+@media (min-width: 1024px) {
+    .dropdown-adjust {
+        left: -2rem !important; /* Ajuste este valor de acordo com suas necessidades */
+    }
+}
